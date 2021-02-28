@@ -14,6 +14,8 @@ import javax.validation.constraints.Size;
 @NoArgsConstructor
 public class PhoneDTO {
 
+    private String id;
+
     @NotEmpty
     private String type;
 

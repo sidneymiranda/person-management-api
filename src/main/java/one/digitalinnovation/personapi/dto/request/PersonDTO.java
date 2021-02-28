@@ -17,6 +17,8 @@ import java.util.List;
 @NoArgsConstructor
 public class PersonDTO {
 
+    private  String id;
+
     @NotEmpty
     @Size(min = 2, max = 100)
     private String firstName;
@@ -27,7 +29,6 @@ public class PersonDTO {
     @NotEmpty
     private String cpf;
 
-    @NotEmpty
     private String birthDate;
 
     @NotEmpty
