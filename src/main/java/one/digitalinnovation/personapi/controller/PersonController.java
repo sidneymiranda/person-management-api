@@ -32,7 +32,7 @@ public class PersonController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Person> listPerson(){
-        return personService.findAll();
+    public List<PersonDTO> listPerson(){
+        return personService.listAll();
     }
 }
