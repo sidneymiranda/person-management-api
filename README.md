@@ -1,7 +1,7 @@
 <h2>API REST com Java e Spring Boot para gerenciamento de pessoas</h2>
 
 Este projeto foi realizado durante o curso de **Java Developer** da Digital Innovation One,
-e nele, desenvolvi um sistema de gerenciamento básico de pessoas através de uma API REST, criada com o Spring Boot.
+e nele, desenvolvi um sistema de gerenciamento básico de pessoas através de uma API REST, criada com o Spring Boot persistindo em um banco postgresql provisionado no Heroku.
 
 
 Os seguintes endpoints foram criados:
